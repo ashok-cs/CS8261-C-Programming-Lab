@@ -7,7 +7,7 @@ void main(){
 	T = A;
 	while (T > 0)
 	{
-		d = T % 10
+		d = T % 10;
 		sum += pow(d,3);
 		T /= 10;
 	}
